@@ -8,9 +8,9 @@ body {
     margin: auto;
 }
 
-/* Header */
+                                        /* Header */
 
-/* NAVIGATION */
+                                        /* NAVIGATION */
 
 .navigation {
     display: grid;
@@ -78,7 +78,7 @@ a {
     text-decoration: none;
 }
 
-/* Header Content Block */
+                                        /* Header Content Block */
 
 .header_slider {
     display: grid;
@@ -116,8 +116,91 @@ h1 {
     width: 140px;
     color: #4f4a41;
     background-color: #2a2a2a;
-    border: 1px solid #a59477;
+    border: 2px solid #a59477;
+    border-radius: 5px;
 }
 
 
+                                        /* Intro Section */
+
+.intro_section {
+    height: 200px;
+    padding: 40px 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: start;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.intro_section h2 {
+    font-size: 1.6rem;
+    color: #767676;
+    font-family: "HelveticaNeue";
+}
+
+.intro_section p {
+    font-size: 1.2rem;
+    color: #888888;
+}
+
+.intro_buttons {
+    height: 40px;
+    width: 140px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.left_btn {
+    color: #a59477;
+    border: 2px solid #a59477;
+}
+.right_btn {
+    color: #a57780;
+    border: 2px solid #a57780;
+}
+
+                                        /* Process Section */
+                                        
+.process_section {
+    height: 300px;
+    padding: 40px 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 10px;
+}
+
+.process_section h2 {
+    font-size: 1.6rem;
+    color: #767676;
+}
+
+.circle_block {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.circle_div {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+.img_circle {
+    height: 80px;
+    width: 80px;
+    border: 2px solid #a59477;
+    border-radius: 100px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.arrow {
+    display: grid;
+    align-self: start;
+    padding-top: 35px;
+}
 
