@@ -8,6 +8,10 @@ body {
     margin: auto;
 }
 
+p {
+    color: #818181;
+}
+
                                         /* Header */
 
                                         /* NAVIGATION */
@@ -65,7 +69,7 @@ a:hover {
     grid-column-gap: 5px;
 }
 
-ul {
+.nav_ul {
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
@@ -221,17 +225,129 @@ h1 {
     padding-top: 35px;
 }
 
+                                        /* Portfolio Section */
+                                        
+.portfolio_section {
+    height: 450px;
+    padding: 40px 100px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-row-columns: 10px;
+}
+
+.portfolio_examples {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.portfolio {
+    display: grid;
+    justify-items: center;
+    height: 240px;
+    width: 230px;
+    border: 1px solid #dedede;
+}
+
+.portfolio_gray_quadrangle {
+    height: 180px;
+    width: 230px;
+    background-color: #9f9f9f;
+}
+
+.portfolio p {
+    font-size: 0.9rem;
+}
+
+                                        /* Blog Section */
+
+.blog_section {
+    height: 450px;
+    padding: 40px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+}
+
+.recent_post {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 20px 0;
+}
+
+.date {
+    height: 60px;
+    width: 60px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid #a59477;
+    border-radius: 100%;
+}
+
+.recent_content {
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr 1fr;
+    grid-row-gap: 12px;
+    
+}
+
+.recent_like {
+    color: #a59477;
+}
+
+.about_content {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 40px;
+    justify-content: center;
+    padding: 20px 0;
+    line-height: 22px;
+}
+
+.unordered_list li {
+    list-style-type: circle;
+}
+    
+                                        /* Testimorial Section */
+
+.testimorial_section {
+    display: grid;
+    text-align: center;
+    padding: 0 100px 60px 100px;
+    background-color: #f4f4f4;
+}
+
+.quotes {
+    font-size: 5rem;
+}
+
+blockquote {
+    font-size: 1.3rem;
+    color: #818181;
+}
+
+.coriss_ambady {
+    color: #aa9a7e;
+}
 
 
-._1__Concepting {
-  font-size: 18px;
-  font-family: "HelveticaNeue";
-  color: rgb(168, 149, 116);
-  font-weight: bold;
-  line-height: 3.611;
-  text-align: left;
-  position: absolute;
-  left: 210.22px;
-  top: 1223.391px;
-  z-index: 132;
+                                        /* Footer */
+footer {
+    height: 500px;
+}
+
+.footer_content {
+    height: 400px;
+    padding: 0 100px;
+    background-color: #393939;
+}
+
+.copyright {
+    height: 100px;
+    padding: 0 100px;
+    background-color: #333;
+    color: white;
+    display: grid;
+    /*justify-items: start;*/
+    align-items: center;
 }
