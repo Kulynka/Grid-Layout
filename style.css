@@ -340,7 +340,81 @@ footer {
     height: 400px;
     padding: 0 100px;
     background-color: #393939;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.footer_content_bloks {
+    color: #d2d2d2;
+    padding: 60px 10px 0 0;
+}
+
+.footer_content_bloks h4 {
+    padding-bottom: 30px;
+    
+}
+
+.place_mark {
+    list-style-image: url('img/Fill.png');
+}
+.phone {
+    list-style-image: url('img/Phone.png');
+}
+.mail {
+    list-style-image: url('img/Message_small.png');
+}
+
+.bird {
+    list-style-image: url('img/bird.png');
+}
+
+.get_in_touch p {
+    padding-bottom: 30px;
+    color: #d2d2d2;
+}
+
+.twitter ul li {
+    padding-bottom: 30px;
+}
+
+.popular_posts {
+    padding-bottom: 30px;
+}
+
+.post {
+    color: #d2d2d2;
+    padding-bottom: 10px;
+}
+
+.post_date {
+    color: #898989;
+}
+
+.form_inputs {
+    height: 35px;
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: #2e2e2e;
+    border: none;
+}
+
+textarea {
+    background-color: #2e2e2e;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.footer_button {
+    height: 40px;
+    width: 140px;
+    color: #a6a6a6;
+    background-color: #393939;
+    border: 2px solid #a6a6a6;
+    border-radius: 5px;
+}
+
+
+
 
 .copyright {
     height: 100px;
