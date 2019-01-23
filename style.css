@@ -137,7 +137,7 @@ h1 {
     background-color: #f4f4f4;
 }
 
-.intro_section h2 {
+h3 {
     font-size: 1.6rem;
     color: #767676;
     font-family: "HelveticaNeue";
@@ -235,6 +235,10 @@ h1 {
     grid-row-columns: 10px;
 }
 
+.portfolio_section h3 {
+    padding-bottom: 20px;
+}
+
 .portfolio_examples {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -262,7 +266,7 @@ h1 {
 
 .blog_section {
     height: 450px;
-    padding: 40px 100px;
+    padding: 0 100px 40px 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 50px;
@@ -313,12 +317,14 @@ h1 {
 .testimorial_section {
     display: grid;
     text-align: center;
-    padding: 0 100px 60px 100px;
+    padding: 30px 100px 60px 100px;
     background-color: #f4f4f4;
+    line-height: 40px;
 }
 
 .quotes {
     font-size: 5rem;
+    padding-bottom: 20px;
 }
 
 blockquote {
